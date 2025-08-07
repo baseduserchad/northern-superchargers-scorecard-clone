@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Northern Superchargers vs Welsh Fire - Scorecard Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">cricbuzz</div>
+      <ul class="nav-links">
+        <li><a href="#">Live Scores</a></li>
+        <li><a href="#">Schedule</a></li>
+        <li><a href="#">Archives</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Rankings</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+      <div class="plus-button">Cricbuzz Plus</div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="match-header">
+      <h1 id="match-title">Northern Superchargers vs Welsh Fire, 3rd Match - Live Cricket Score, Commentary</h1>
+      <div class="match-details">
+        <span><strong>Series:</strong> The Hundred Mens Competition 2025</span>
+        <span><strong>Venue:</strong> Headingley, Leeds</span>
+        <span><strong>Date & Time:</strong> Aug 07, 06:30 PM LOCAL</span>
+      </div>
+      <div id="match-result" class="match-result">Northern Superchargers won by 8 wkts</div>
+    </section>
+
+    <section class="content-wrapper">
+      <section class="scorecard">
+        <article class="innings" id="innings-1">
+          <h2>Welsh Fire Innings <span class="score" id="innings-1-score">143-9 (100)</span></h2>
+          <table class="batting-table">
+            <thead>
+              <tr>
+                <th>Batter</th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+              </tr>
+            </thead>
+            <tbody id="innings-1-batting">
+              <!-- Batting rows inserted here -->
+            </tbody>
+          </table>
+
+          <div class="extras-total">
+            <span id="innings-1-extras">Extras: 3 (b 0, lb 0, w 3, nb 0, p 0)</span>
+            <span id="innings-1-total">Total: 143 (9 wkts, 100 bls)</span>
+          </div>
+
+          <div class="fall-of-wickets" id="innings-1-fall-of-wickets">
+            <h3>Fall of Wickets</h3>
+            <p></p>
+          </div>
+
+          <table class="bowling-table">
+            <thead>
+              <tr>
+                <th>Bowler</th>
+                <th>B</th>
+                <th>D</th>
+                <th>R</th>
+                <th>W</th>
+                <th>NB</th>
+                <th>WD</th>
+                <th>RPB</th>
+              </tr>
+            </thead>
+            <tbody id="innings-1-bowling">
+              <!-- Bowling rows inserted here -->
+            </tbody>
+          </table>
+        </article>
+
+        <article class="innings" id="innings-2">
+          <h2>Northern Superchargers Innings <span class="score" id="innings-2-score">147-2 (89)</span></h2>
+          <table class="batting-table">
+            <thead>
+              <tr>
+                <th>Batter</th>
+                <th>R</th>
+                <th>B</th>
+                <th>4s</th>
+                <th>6s</th>
+                <th>SR</th>
+              </tr>
+            </thead>
+            <tbody id="innings-2-batting">
+              <!-- Batting rows inserted here -->
+            </tbody>
+          </table>
+
+          <div class="extras-total">
+            <span id="innings-2-extras">Extras: 10 (b 0, lb 3, w 7, nb 0, p 0)</span>
+            <span id="innings-2-total">Total: 147 (2 wkts, 89 bls)</span>
+          </div>
+
+          <div class="fall-of-wickets" id="innings-2-fall-of-wickets">
+            <h3>Fall of Wickets</h3>
+            <p></p>
+          </div>
+
+          <table class="bowling-table">
+            <thead>
+              <tr>
+                <th>Bowler</th>
+                <th>B</th>
+                <th>D</th>
+                <th>R</th>
+                <th>W</th>
+                <th>NB</th>
+                <th>WD</th>
+                <th>RPB</th>
+              </tr>
+            </thead>
+            <tbody id="innings-2-bowling">
+              <!-- Bowling rows inserted here -->
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <aside class="sidebar">
+        <section class="match-info">
+          <h3>Match Info</h3>
+          <table>
+            <tbody id="match-info-table">
+              <!-- Match info rows inserted here -->
+            </tbody>
+          </table>
+        </section>
+
+        <section class="squads">
+          <h3>Squads</h3>
+          <div class="squad" id="northern-superchargers-squad">
+            <h4>Northern Superchargers Playing</h4>
+            <p></p>
+            <h4>Bench</h4>
+            <p></p>
+          </div>
+          <div class="squad" id="welsh-fire-squad">
+            <h4>Welsh Fire Playing</h4>
+            <p></p>
+            <h4>Bench</h4>
+            <p></p>
+          </div>
+        </section>
+
+        <section class="latest-news">
+          <h3>Latest News</h3>
+          <ul id="latest-news-list">
+            <!-- News items inserted here -->
+          </ul>
+          <button id="more-news-btn">More News</button>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section logo-section">cricbuzz</div>
+      <div class="footer-section mobile-apps">
+        <h4>MOBILE SITE &amp; APPS</h4>
+        <ul>
+          <li>m.cricbuzz.com</li>
+          <li>Android</li>
+          <li>iOS</li>
+        </ul>
+      </div>
+      <div class="footer-section follow-us">
+        <h4>FOLLOW US ON</h4>
+        <ul>
+          <li>facebook</li>
+          <li>twitter</li>
+          <li>youtube</li>
+          <li>Pinterest</li>
+        </ul>
+      </div>
+      <div class="footer-section company">
+        <h4>COMPANY</h4>
+        <ul>
+          <li>Careers</li>
+          <li>Advertise</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Use</li>
+          <li>Cricbuzz TV Ads</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Cricbuzz.com, Cricbuzz Platforms Limited. All rights reserved | The Times of India | Navbharat Times
+    </div>
+  </footer>
+
+  <div id="error-message" class="error-message" role="alert" aria-live="assertive" hidden></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
